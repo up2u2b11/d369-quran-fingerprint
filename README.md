@@ -193,5 +193,13 @@ Any researcher anywhere can take our data, our code, and re-run every test.
 
 ---
 
+## Arabic Repository
+
+**[d369-research](https://github.com/up2u2b11/d369-research)**
+— The original repository in Arabic (the language of the research).
+Same experiments, same data, same code — for Arabic-speaking researchers.
+
+---
+
 *Emad Suleiman Alwan — up2b.ai — March 17, 2026*
 *"And We have revealed to you the Book as clarification for all things" (16:89)*
