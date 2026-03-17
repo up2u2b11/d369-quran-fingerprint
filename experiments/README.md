@@ -17,6 +17,7 @@
 | [07](07_architecture_vs_words/) | Architecture vs. Words? | Special-6 | 114 × 3 tests | **p = 0.0093** | ✅ |
 | [08](08_division_architecture/) | Gate Five — Architecture of Division | Special-6 | 78,248 × 4 splits | **p = 0.007 / 0.010** | ✅ |
 | [09](09_bukhari_control/) | Gate Six — Bukhari Control Group | Special-6 | 1,000 hadith × 4 splits | **p > 0.13 all** | ✅ |
+| [10](10_torah_hebrew_control/) | Gate Seven — Torah (Hebrew) Control | Gematria | 69,196 words × 4 splits | **p > 0.33 all** | ✅ |
 
 ---
 
@@ -61,6 +62,19 @@ Transformation  | {3,6,9} stable  ✅    | {9} only stable
 
 **Each system sees a different layer — Abjad sees the word, Special-6 sees the Surah.**
 
+### Control Group Results (Gates 6–7)
+
+```
+Text        Language  System    Division          p-value   Result
+──────────────────────────────────────────────────────────────────
+Quran       Arabic    Special-6 Surahs (divine)   0.007     ✅ peak
+Quran       Arabic    Special-6 Verses (natural)  0.010     ✅
+Bukhari     Arabic    Special-6 Natural hadith    0.139     ✗
+Torah       Hebrew    Gematria  Natural Parashot   0.549     ✗
+```
+
+**The {3,6,9} fingerprint is unique to the Quran — not Arabic, not religion, not revelation.**
+
 ---
 
 ## Corresponding Papers
@@ -69,3 +83,4 @@ Transformation  | {3,6,9} stable  ✅    | {9} only stable
 - Experiment 03 → [Paper II](https://doi.org/10.5281/zenodo.19055332)
 - Experiments 04–06 → [Paper III](https://doi.org/10.5281/zenodo.19073919)
 - Experiment 07 → Paper IV (in preparation)
+- Experiments 08–10 → Paper V (in preparation)
