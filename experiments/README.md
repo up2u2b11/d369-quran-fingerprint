@@ -15,6 +15,7 @@
 | [05](05_special6_word_level/) | Special-6 — Word Level | Special-6 | 78,248 words | p ≈ 0 | ✅ |
 | [06](06_special6_transformation_map/) | Special-6 Transformation Map | Both | 114 Surahs (group sums) | — | ✅ |
 | [07](07_architecture_vs_words/) | Architecture vs. Words? | Special-6 | 114 × 3 tests | **p = 0.0093** | ✅ |
+| [08](08_division_architecture/) | Gate Five — Architecture of Division | Special-6 | 78,248 × 4 splits | **p = 0.007 / 0.010** | ✅ |
 
 ---
 
