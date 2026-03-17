@@ -29,12 +29,12 @@ keywords:
   - fingerprint
 preferred-citation:
   type: article
-  title: "System-Independent Validation of the Digital Root Fingerprint of the Quran via Special-6 Encoding"
+  title: "The Quranic {3,6,9} Fingerprint: Division Architecture and Cross-Text Controls"
   authors:
     - family-names: "Alwan"
       given-names: "Emad Suleiman"
       orcid: "https://orcid.org/0009-0004-5797-6140"
-  doi: "10.5281/zenodo.19073919"
+  doi: "10.5281/zenodo.19078320"
   year: 2026
 references:
   - type: article
@@ -50,4 +50,11 @@ references:
       - family-names: "Alwan"
         given-names: "Emad Suleiman"
     doi: "10.5281/zenodo.19055332"
+    year: 2026
+  - type: article
+    title: "System-Independent Validation via Special-6 Encoding"
+    authors:
+      - family-names: "Alwan"
+        given-names: "Emad Suleiman"
+    doi: "10.5281/zenodo.19073919"
     year: 2026

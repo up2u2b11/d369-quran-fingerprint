@@ -83,4 +83,4 @@ Torah       Hebrew    Gematria  Natural Parashot   0.549     ✗
 - Experiment 03 → [Paper II](https://doi.org/10.5281/zenodo.19055332)
 - Experiments 04–06 → [Paper III](https://doi.org/10.5281/zenodo.19073919)
 - Experiment 07 → Paper IV (in preparation)
-- Experiments 08–10 → Paper V (in preparation)
+- Experiments 07–10 → [Paper IV](https://doi.org/10.5281/zenodo.19078320)
