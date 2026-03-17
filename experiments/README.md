@@ -16,6 +16,7 @@
 | [06](06_special6_transformation_map/) | Special-6 Transformation Map | Both | 114 Surahs (group sums) | — | ✅ |
 | [07](07_architecture_vs_words/) | Architecture vs. Words? | Special-6 | 114 × 3 tests | **p = 0.0093** | ✅ |
 | [08](08_division_architecture/) | Gate Five — Architecture of Division | Special-6 | 78,248 × 4 splits | **p = 0.007 / 0.010** | ✅ |
+| [09](09_bukhari_control/) | Gate Six — Bukhari Control Group | Special-6 | 1,000 hadith × 4 splits | **p > 0.13 all** | ✅ |
 
 ---
 
