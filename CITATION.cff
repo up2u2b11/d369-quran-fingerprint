@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+message: "If you use this research, please cite it as below."
+type: software
+title: "d369 — Digital Root Fingerprint of the Quran"
+abstract: >
+  Statistical study of the digital root structure of the Quran across multiple
+  independent encoding systems (classical Abjad and Special-6). Experiments show
+  that the group {3, 6, 9} appears with statistically significant frequency
+  (p = 0.007) in the Quran but not in other Arabic texts.
+authors:
+  - family-names: "Alwan"
+    given-names: "Emad Suleiman"
+    orcid: "https://orcid.org/0009-0004-5797-6140"
+    affiliation: "up2b.ai"
+date-released: 2026-03-17
+version: "1.0.0"
+license: CC-BY-4.0
+repository-code: "https://github.com/up2u2b11/d369-quran-fingerprint"
+keywords:
+  - Quran
+  - digital root
+  - Abjad
+  - numerical structure
+  - Islamic studies
+  - computational linguistics
+  - statistical analysis
+  - Special-6
+  - {3,6,9}
+  - fingerprint
+preferred-citation:
+  type: article
+  title: "System-Independent Validation of the Digital Root Fingerprint of the Quran via Special-6 Encoding"
+  authors:
+    - family-names: "Alwan"
+      given-names: "Emad Suleiman"
+      orcid: "https://orcid.org/0009-0004-5797-6140"
+  doi: "10.5281/zenodo.19073919"
+  year: 2026
+references:
+  - type: article
+    title: "Digital Root Transformation Map (G14)"
+    authors:
+      - family-names: "Alwan"
+        given-names: "Emad Suleiman"
+    doi: "10.5281/zenodo.19041960"
+    year: 2026
+  - type: article
+    title: "Digital Root in Word Repetition"
+    authors:
+      - family-names: "Alwan"
+        given-names: "Emad Suleiman"
+    doi: "10.5281/zenodo.19055332"
+    year: 2026
