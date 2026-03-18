@@ -18,6 +18,7 @@
 | [08](08_division_architecture/) | Gate Five — Architecture of Division | Special-6 | 78,248 × 4 splits | **p = 0.007 / 0.010** | ✅ |
 | [09](09_bukhari_control/) | Gate Six — Bukhari Control Group | Special-6 | 1,000 hadith × 4 splits | **p > 0.13 all** | ✅ |
 | [10](10_torah_hebrew_control/) | Gate Seven — Torah (Hebrew) Control | Gematria | 69,196 words × 4 splits | **p > 0.33 all** | ✅ |
+| [11](11_contribution_analysis/) | Gate Eight — Contribution Analysis (Leave-One-Out) | Special-6 | 114 × 3,000 trials | **all neutral** | ✅ |
 
 ---
 
@@ -75,6 +76,21 @@ Torah       Hebrew    Gematria  Natural Parashot   0.549     ✗
 
 **The {3,6,9} fingerprint is unique to the Quran — not Arabic, not religion, not revelation.**
 
+### Gate Eight Result (Experiment 11)
+
+```
+Leave-one-out × 114 Surahs (3,000 trials each):
+
+🔴 Load-bearing:  0 Surahs   (Δ > +0.020)
+◻  Neutral:      114 Surahs  (all p-values remain significant)
+🟢 Booster:       0 Surahs   (Δ < −0.005)
+
+Δ range: −0.0047 (Al-Zukhruf) to +0.0080 (Al-Mursalat)
+Max p when any Surah removed: 0.0150 (still well below 0.05)
+```
+
+**The fingerprint is indivisible — it requires all 114 Surahs as a complete architecture.**
+
 ---
 
 ## Corresponding Papers
@@ -84,3 +100,4 @@ Torah       Hebrew    Gematria  Natural Parashot   0.549     ✗
 - Experiments 04–06 → [Paper III](https://doi.org/10.5281/zenodo.19073919)
 - Experiment 07 → Paper IV (in preparation)
 - Experiments 07–10 → [Paper IV](https://doi.org/10.5281/zenodo.19078371)
+- Experiment 11 → Paper V (in preparation)
