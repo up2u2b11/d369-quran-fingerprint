@@ -29,12 +29,12 @@ keywords:
   - fingerprint
 preferred-citation:
   type: article
-  title: "The Quranic {3,6,9} Fingerprint: Division Architecture and Cross-Text Controls"
+  title: "The Quranic {3,6,9} Fingerprint — Paper V: The Indivisible Fingerprint. Leave-One-Out Analysis of All 114 Surahs"
   authors:
     - family-names: "Alwan"
       given-names: "Emad Suleiman"
       orcid: "https://orcid.org/0009-0004-5797-6140"
-  doi: "10.5281/zenodo.19078371"
+  doi: "10.5281/zenodo.19079630"
   year: 2026
 references:
   - type: article
@@ -57,4 +57,11 @@ references:
       - family-names: "Alwan"
         given-names: "Emad Suleiman"
     doi: "10.5281/zenodo.19073919"
+    year: 2026
+  - type: article
+    title: "The Quranic {3,6,9} Fingerprint: Division Architecture and Cross-Text Controls"
+    authors:
+      - family-names: "Alwan"
+        given-names: "Emad Suleiman"
+    doi: "10.5281/zenodo.19078371"
     year: 2026
