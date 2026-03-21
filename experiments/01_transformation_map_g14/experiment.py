@@ -27,6 +27,8 @@ import os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..', 'shared'))
 from utils import JUMMAL_5, digit_root
 
+random.seed(42)  # Fixed seed for bitwise reproducibility
+
 DB_PATH = os.environ.get("D369_DB", "/root/d369/d369.db")
 
 
@@ -75,23 +77,33 @@ def build_transformation_map(surah_sums: dict) -> dict:
 
 def monte_carlo_test(observed_stable: set, surah_sums: dict, trials: int = 100_000) -> float:
     """
-    Monte Carlo significance test.
-    Shuffle Surah values randomly, rebuild the transformation map,
-    and check how often the same (or broader) set of stable roots appears.
+    Monte Carlo significance test (Method A).
+    Randomly assign each Surah's value to one of 9 groups,
+    sum each group, and check how often the same (or broader)
+    set of self-preserving roots appears.
+
+    NOTE: The naive shuffle-and-regroup approach is invalid because
+    grouping by digit_root(value) produces invariant group membership
+    regardless of positional shuffling. Method A (random group assignment)
+    is the correct null model as described in Alwan 2026a.
     """
     values = list(surah_sums.values())
-    surah_ids = list(surah_sums.keys())
-    exceed = 0
+    observed_count = len(observed_stable)
+    exceed_count = 0
+    exceed_tesla = 0
 
     for _ in range(trials):
-        random.shuffle(values)
-        shuffled = dict(zip(surah_ids, values))
-        t_map = build_transformation_map(shuffled)
-        stable = {dr for dr, info in t_map.items() if info["preserves"]}
-        if stable >= observed_stable:
-            exceed += 1
+        groups = defaultdict(int)
+        for v in values:
+            groups[random.randint(1, 9)] += v
+        stable = {dr for dr in range(1, 10)
+                  if groups[dr] > 0 and digit_root(groups[dr]) == dr}
+        if len(stable) >= observed_count:
+            exceed_count += 1
+        if {3, 6, 9} <= stable:
+            exceed_tesla += 1
 
-    return exceed / trials
+    return exceed_count / trials, exceed_tesla / trials
 
 
 def run(db_path: str = DB_PATH, monte_carlo_trials: int = 10_000) -> dict:
@@ -123,15 +135,17 @@ def run(db_path: str = DB_PATH, monte_carlo_trials: int = 10_000) -> dict:
     matches_g14 = stable_set == g14_expected
     print(f"Matches G14 prediction {{3,6,9}}: {'✅' if matches_g14 else '✗'}")
 
-    print(f"\nMonte Carlo ({monte_carlo_trials:,} trials)...")
-    p_value = monte_carlo_test(stable_set, surah_sums, monte_carlo_trials)
-    print(f"p-value = {p_value:.6f}  {'← statistically significant ✅' if p_value < 0.05 else '← not significant'}")
+    print(f"\nMonte Carlo — Method A ({monte_carlo_trials:,} trials)...")
+    p_count, p_tesla = monte_carlo_test(stable_set, surah_sums, monte_carlo_trials)
+    print(f"p-value ({len(stable_set)}+ self-preserving) = {p_count:.5f}  {'← significant ✅' if p_count < 0.05 else '← not significant'}")
+    print(f"p-value ({{3,6,9}} triad)            = {p_tesla:.5f}  {'← significant ✅' if p_tesla < 0.05 else '← not significant'}")
 
     return {
         "transformation_map": t_map,
         "stable_groups": sorted(stable_set),
         "total_quran_jummal": total_quran,
-        "p_value": p_value,
+        "p_count": p_count,
+        "p_tesla": p_tesla,
         "matches_g14": matches_g14
     }
 
