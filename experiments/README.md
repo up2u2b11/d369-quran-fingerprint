@@ -19,6 +19,7 @@
 | [09](09_bukhari_control/) | Gate Six — Bukhari Control Group | Special-6 | 1,000 hadith × 4 splits | **p > 0.13 all** | ✅ |
 | [10](10_torah_hebrew_control/) | Gate Seven — Torah (Hebrew) Control | Gematria | 69,196 words × 4 splits | **p > 0.33 all** | ✅ |
 | [11](11_contribution_analysis/) | Gate Eight — Contribution Analysis (Leave-One-Out) | Special-6 | 114 × 3,000 trials | **all neutral** | ✅ |
+| [12](12_torah_g14_map/) | Gate Nine — Torah G14 Transformation Map | Gematria | 54 Parashot + 5,846 verses | **p = 0.068 (not significant)** | ✅ |
 
 ---
 
@@ -100,4 +101,5 @@ Max p when any Surah removed: 0.0150 (still well below 0.05)
 - Experiments 04–06 → [Paper III](https://doi.org/10.5281/zenodo.19073919)
 - Experiment 07 → Paper IV (in preparation)
 - Experiments 07–10 → [Paper IV](https://doi.org/10.5281/zenodo.19078371)
-- Experiment 11 → Paper V (in preparation)
+- Experiment 11 → [Paper V](https://doi.org/10.5281/zenodo.19079630)
+- Experiment 12 → Paper VI (Gate Nine — Torah lacks G14 architecture)
