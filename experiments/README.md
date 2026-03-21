@@ -22,6 +22,7 @@
 | [12](12_torah_g14_map/) | Gate Nine — Torah G14 Transformation Map | Gematria | 54 Parashot + 5,846 verses | **p = 0.068 (not significant)** | ✅ |
 | [13](13_ayah_count_fingerprint/) | Gate Ten — Verse-Count Fingerprint | No encoding | 114 Surahs + 54 Parashot | **p = 0.652 (not significant)** | ✅ |
 | [14](14_random_encoding_test/) | Random Encoding Stress Test | 33 random | 114 Surahs × 33 encodings | **0/33 beat Special-6** | ✅ |
+| [15](15_freq_order_encoding/) | System 3: Frequency Order Encoding | Freq-Order | 114 Surahs + 78K words | **5 self-preserving (p=0.0015)** | ✅ |
 
 ---
 
