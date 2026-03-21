@@ -34,7 +34,7 @@ preferred-citation:
     - family-names: "Alwan"
       given-names: "Emad Suleiman"
       orcid: "https://orcid.org/0009-0004-5797-6140"
-  doi: "10.5281/zenodo.19079630"
+  doi: "10.5281/zenodo.19142618"
   year: 2026
 references:
   - type: article
@@ -64,4 +64,18 @@ references:
       - family-names: "Alwan"
         given-names: "Emad Suleiman"
     doi: "10.5281/zenodo.19078371"
+    year: 2026
+  - type: article
+    title: "The Quranic {3,6,9} Fingerprint: The Indivisible Fingerprint — Leave-One-Out Analysis"
+    authors:
+      - family-names: "Alwan"
+        given-names: "Emad Suleiman"
+    doi: "10.5281/zenodo.19079630"
+    year: 2026
+  - type: article
+    title: "The Ninth Gate: G14 State Transformation Map for the Hebrew Torah"
+    authors:
+      - family-names: "Alwan"
+        given-names: "Emad Suleiman"
+    doi: "10.5281/zenodo.19142618"
     year: 2026
