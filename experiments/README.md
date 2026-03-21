@@ -21,6 +21,7 @@
 | [11](11_contribution_analysis/) | Gate Eight — Contribution Analysis (Leave-One-Out) | Special-6 | 114 × 3,000 trials | **all neutral** | ✅ |
 | [12](12_torah_g14_map/) | Gate Nine — Torah G14 Transformation Map | Gematria | 54 Parashot + 5,846 verses | **p = 0.068 (not significant)** | ✅ |
 | [13](13_ayah_count_fingerprint/) | Gate Ten — Verse-Count Fingerprint | No encoding | 114 Surahs + 54 Parashot | **p = 0.652 (not significant)** | ✅ |
+| [14](14_random_encoding_test/) | Random Encoding Stress Test | 33 random | 114 Surahs × 33 encodings | **0/33 beat Special-6** | ✅ |
 
 ---
 
