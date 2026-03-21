@@ -29,12 +29,12 @@ keywords:
   - fingerprint
 preferred-citation:
   type: article
-  title: "The Quranic {3,6,9} Fingerprint — Paper V: The Indivisible Fingerprint. Leave-One-Out Analysis of All 114 Surahs"
+  title: "A System-Independent Digital Root Fingerprint in the Quran: Evidence from Thirteen Computational Experiments across Two Languages"
   authors:
     - family-names: "Alwan"
       given-names: "Emad Suleiman"
       orcid: "https://orcid.org/0009-0004-5797-6140"
-  doi: "10.5281/zenodo.19142618"
+  doi: "10.5281/zenodo.19143594"
   year: 2026
 references:
   - type: article
