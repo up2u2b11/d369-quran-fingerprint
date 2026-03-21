@@ -20,6 +20,7 @@
 | [10](10_torah_hebrew_control/) | Gate Seven — Torah (Hebrew) Control | Gematria | 69,196 words × 4 splits | **p > 0.33 all** | ✅ |
 | [11](11_contribution_analysis/) | Gate Eight — Contribution Analysis (Leave-One-Out) | Special-6 | 114 × 3,000 trials | **all neutral** | ✅ |
 | [12](12_torah_g14_map/) | Gate Nine — Torah G14 Transformation Map | Gematria | 54 Parashot + 5,846 verses | **p = 0.068 (not significant)** | ✅ |
+| [13](13_ayah_count_fingerprint/) | Gate Ten — Verse-Count Fingerprint | No encoding | 114 Surahs + 54 Parashot | **p = 0.652 (not significant)** | ✅ |
 
 ---
 
