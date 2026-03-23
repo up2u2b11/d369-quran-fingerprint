@@ -23,6 +23,7 @@
 | [13](13_ayah_count_fingerprint/) | Gate Ten — Verse-Count Fingerprint | No encoding | 114 Surahs + 54 Parashot | **p = 0.652 (not significant)** | ✅ |
 | [14](14_random_encoding_test/) | Random Encoding Stress Test | 33 random | 114 Surahs × 33 encodings | **0/33 beat Special-6** | ✅ |
 | [15](15_freq_order_encoding/) | System 3: Frequency Order Encoding | Freq-Order | 114 Surahs + 78K words | **5 self-preserving (p=0.0015)** | ✅ |
+| [16](16_rasm_readings/) | Ten Canonical Readings + Uthmani vs. Imla'i Script | Abjad + K6 | 114 Surahs × 14 readings × 2 scripts | **p=0.011 (Imla'i) / p≈0 (word-level)** | ✅ |
 
 ---
 
@@ -78,22 +79,27 @@ Bukhari     Arabic    Special-6 Natural hadith    0.139     ✗
 Torah       Hebrew    Gematria  Natural Parashot   0.549     ✗
 ```
 
-**The {3,6,9} fingerprint is unique to the Quran — not Arabic, not religion, not revelation.**
-
 ### Gate Eight Result (Experiment 11)
 
 ```
 Leave-one-out × 114 Surahs (3,000 trials each):
 
-🔴 Load-bearing:  0 Surahs   (Δ > +0.020)
-◻  Neutral:      114 Surahs  (all p-values remain significant)
-🟢 Booster:       0 Surahs   (Δ < −0.005)
-
-Δ range: −0.0047 (Al-Zukhruf) to +0.0080 (Al-Mursalat)
-Max p when any Surah removed: 0.0150 (still well below 0.05)
+🔴 Load-bearing:  0 Surahs
+◻  Neutral:      114 Surahs
+🟢 Booster:       0 Surahs
 ```
 
 **The fingerprint is indivisible — it requires all 114 Surahs as a complete architecture.**
+
+### Experiment 16 Result (Readings + Script)
+
+```
+Ten canonical readings: identical — fingerprint is reading-invariant ✅
+Imla'i script:  K6=45% p=0.011 ✅ (Surah level)
+Uthmani script: word-level p≈0 ✅ (stronger: z=34 vs z=27)
+Invariant Core: 12 Surahs unaffected by either script
+Letter dots:    part of the code — merging them destroys the fingerprint
+```
 
 ---
 
@@ -102,7 +108,7 @@ Max p when any Surah removed: 0.0150 (still well below 0.05)
 - Experiments 01–02 → [Paper I](https://doi.org/10.5281/zenodo.19041960)
 - Experiment 03 → [Paper II](https://doi.org/10.5281/zenodo.19055332)
 - Experiments 04–06 → [Paper III](https://doi.org/10.5281/zenodo.19073919)
-- Experiment 07 → Paper IV (in preparation)
 - Experiments 07–10 → [Paper IV](https://doi.org/10.5281/zenodo.19078371)
 - Experiment 11 → [Paper V](https://doi.org/10.5281/zenodo.19079630)
-- Experiment 12 → Paper VI (Gate Nine — Torah lacks G14 architecture)
+- Experiment 12 → Paper VI (Torah lacks G14 architecture)
+- Experiments 01–16 → [Comprehensive Paper](https://doi.org/10.5281/zenodo.19176486)
