@@ -24,6 +24,7 @@
 | [14](14_random_encoding_test/) | Random Encoding Stress Test | 33 random | 114 Surahs × 33 encodings | **0/33 beat Special-6** | ✅ |
 | [15](15_freq_order_encoding/) | System 3: Frequency Order Encoding | Freq-Order | 114 Surahs + 78K words | **5 self-preserving (p=0.0015)** | ✅ |
 | [16](16_rasm_readings/) | Ten Canonical Readings + Uthmani vs. Imla'i Script | Abjad + K6 | 114 Surahs × 14 readings × 2 scripts | **p=0.011 (Imla'i) / p≈0 (word-level)** | ✅ |
+| [17+18](17_18_translation_fingerprint/) | Does the Fingerprint Survive Translation? 5 languages, 9 texts | Abjad + Gematria | 9 texts | **z: +49.52 to -13.01** | ✅ Complete | [10.5281/zenodo.19181803](https://doi.org/10.5281/zenodo.19181803) |
 
 ---
 
@@ -101,6 +102,24 @@ Invariant Core: 12 Surahs unaffected by either script
 Letter dots:    part of the code — merging them destroys the fingerprint
 ```
 
+### Experiments 17+18 Result (Fingerprint Across Translation)
+
+```
+Text                              z-score   Fingerprint
+───────────────────────────────────────────────────────
+Quran — Urdu (Jalandhry)          +49.52    ✅
+Quran — Persian (Makarem)         +40.74    ✅
+Quran — Arabic (Abjad)            +27.35    ✅
+Quran — Hebrew (Gematria)         +22.75    ✅
+Quran — English (Ordinal)         -13.01    ❌
+Hebrew Torah                       -6.81    ❌
+Hafez — Persian poetry             -3.65    ❌
+Bukhari — Hebrew (500 hadiths)     -2.16    ❌
+Rumi — Persian poetry              -1.89    ❌
+```
+
+**The partition is absolute: all Quranic translations z > 0, all controls z < 0.**
+
 ---
 
 ## Corresponding Papers
@@ -112,3 +131,4 @@ Letter dots:    part of the code — merging them destroys the fingerprint
 - Experiment 11 → [Paper V](https://doi.org/10.5281/zenodo.19079630)
 - Experiment 12 → Paper VI (Torah lacks G14 architecture)
 - Experiments 01–16 → [Comprehensive Paper](https://doi.org/10.5281/zenodo.19176486)
+- Experiments 17–18 → [Paper VII](https://doi.org/10.5281/zenodo.19181803)
