@@ -92,7 +92,6 @@ def run(db_path: str = DB_PATH, data_dir: str = DATA_DIR) -> list:
 
     texts = [
         (os.path.join(data_dir, "bukhari_sample.txt"), "Sahih al-Bukhari"),
-        (os.path.join(data_dir, "muslim_sample.txt"), "Sahih Muslim"),
         (os.path.join(data_dir, "futuhat_v1.txt"), "Ibn Arabi — Futuhat"),
         (os.path.join(data_dir, "muallaqat.txt"), "The Seven Mu'allaqat"),
     ]

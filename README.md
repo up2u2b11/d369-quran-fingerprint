@@ -73,7 +73,7 @@ Neither the words alone nor the architecture alone is sufficient.
 Level           | Abjad (ة=5)            | Special-6
 ────────────────────────────────────────────────────
 Word (78,248)   | p≈0  ✅ (38.2%)       | p≈0  ✅ (34.2%)
-Surah (114)     | p=0.817  ✗ (29.8%)   | p=0.007  ✅ (44.7%)
+Surah (114)     | p=0.75   ✗ (30.7%)   | p=0.007  ✅ (44.7%)
 Transformation  | {3,6,9} stable  ✅    | {9} only stable
 ```
 
