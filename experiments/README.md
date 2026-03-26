@@ -1,134 +1,138 @@
-# Experiment Index
+# فهرس التجارب البحثية
 
-**Intellectual property:** Emad Suleiman Alwan — up2b.ai
-
----
-
-## Overview
-
-| # | Experiment | System | Unit | p-value | Status |
-|---|-----------|--------|------|---------|--------|
-| [01](01_transformation_map_g14/) | G14 Transformation Map | Abjad (ة=5) | 114 Surahs (group sums) | p < 0.00001 | ✅ |
-| [02](02_readings_hafs_warsh/) | Fingerprint Stability: Hafs vs Warsh | Abjad | 114 Surahs × 2 readings | — | ✅ |
-| [03](03_text_fingerprint_word_level/) | Word-Level Fingerprint (5 texts) | Abjad | 78,248 words | p ≈ 0 | ✅ |
-| [04](04_special6_surah_level/) | Special-6 — Surah Level | Special-6 | 114 Surahs | **p = 0.007** | ✅ |
-| [05](05_special6_word_level/) | Special-6 — Word Level | Special-6 | 78,248 words | p ≈ 0 | ✅ |
-| [06](06_special6_transformation_map/) | Special-6 Transformation Map | Both | 114 Surahs (group sums) | — | ✅ |
-| [07](07_architecture_vs_words/) | Architecture vs. Words? | Special-6 | 114 × 3 tests | **p = 0.0093** | ✅ |
-| [08](08_division_architecture/) | Gate Five — Architecture of Division | Special-6 | 78,248 × 4 splits | **p = 0.007 / 0.010** | ✅ |
-| [09](09_bukhari_control/) | Gate Six — Bukhari Control Group | Special-6 | 1,000 hadith × 4 splits | **p > 0.13 all** | ✅ |
-| [10](10_torah_hebrew_control/) | Gate Seven — Torah (Hebrew) Control | Gematria | 69,196 words × 4 splits | **p > 0.33 all** | ✅ |
-| [11](11_contribution_analysis/) | Gate Eight — Contribution Analysis (Leave-One-Out) | Special-6 | 114 × 3,000 trials | **all neutral** | ✅ |
-| [12](12_torah_g14_map/) | Gate Nine — Torah G14 Transformation Map | Gematria | 54 Parashot + 5,846 verses | **p = 0.068 (not significant)** | ✅ |
-| [13](13_ayah_count_fingerprint/) | Gate Ten — Verse-Count Fingerprint | No encoding | 114 Surahs + 54 Parashot | **p = 0.652 (not significant)** | ✅ |
-| [14](14_random_encoding_test/) | Random Encoding Stress Test | 33 random | 114 Surahs × 33 encodings | **0/33 beat Special-6** | ✅ |
-| [15](15_freq_order_encoding/) | System 3: Frequency Order Encoding | Freq-Order | 114 Surahs + 78K words | **5 self-preserving (p=0.0015)** | ✅ |
-| [16](16_rasm_readings/) | Ten Canonical Readings + Uthmani vs. Imla'i Script | Abjad + K6 | 114 Surahs × 14 readings × 2 scripts | **p=0.011 (Imla'i) / p≈0 (word-level)** | ✅ |
-| [17+18](17_18_translation_fingerprint/) | Does the Fingerprint Survive Translation? 5 languages, 9 texts | Abjad + Gematria | 9 texts | **z: +49.52 to -13.01** | ✅ Complete | [10.5281/zenodo.19181803](https://doi.org/10.5281/zenodo.19181803) |
+**الملكية الفكرية:** عماد سليمان علوان — up2b.ai
 
 ---
 
-## How to Run
+## نظرة عامة
+
+| رقم | التجربة | النظام | الوحدة | p-value | الحالة |
+|-----|---------|--------|--------|---------|--------|
+| [01](01_transformation_map_g14/) | خريطة التحوّلات (G14) | الجُمَّل ة=5 | 114 سورة (جمعياً) | p < 0.00001 | ✅ |
+| [02](02_readings_hafs_warsh/) | ثبات البصمة: حفص vs ورش | الجُمَّل ة=5 | 114 سورة × روايتان | — | ✅ |
+| [03](03_text_fingerprint_word_level/) | بصمة مستوى الكلمات | الجُمَّل ة=5 | 78,248 كلمة | p ≈ 0 | ✅ |
+| [04](04_special6_surah_level/) | الخاص-6 — مستوى السور | الخاص-6 | 114 سورة | **p = 0.007** | ✅ |
+| [05](05_special6_word_level/) | الخاص-6 — مستوى الكلمات | الخاص-6 | 78,248 كلمة | p ≈ 0 | ✅ |
+| [06](06_special6_transformation_map/) | خريطة تحوّلات الخاص-6 | الخاص-6 | 114 سورة (جمعياً) | — | ✅ |
+| [07](07_architecture_vs_words/) | الهندسة أم الكلمات؟ | الخاص-6 | 114 × 3 اختبارات | **p = 0.0093** | ✅ |
+| [08](08_division_architecture/) | الباب الخامس — هندسة التقسيم | الخاص-6 | 78,248 × 4 أنواع | **p = 0.007 / 0.010** | ✅ |
+| [09](09_bukhari_control/) | الباب السادس — البخاري ضابطاً | الخاص-6 | 1,000 حديث × 4 أنواع | **p > 0.13 كلها** | ✅ |
+| [10](10_torah_hebrew_control/) | الباب السابع — التوراة العبرية ضابطاً | الجيماتريا | 69,196 كلمة × 4 أنواع | **p > 0.33 كلها** | ✅ |
+| [11](11_contribution_analysis/) | الباب الثامن — تحليل الإسهام (Leave-One-Out) | الخاص-6 | 114 × 3,000 تجربة | **كلها محايدة** | ✅ |
+| [12](12_torah_g14_map/) | الباب التاسع — خريطة تحوّلات G14 للتوراة | الجيماتريا | 54 پاراشاه + 5,846 آية | **p = 0.068 (غير دال)** | ✅ |
+| [13](13_ayah_count_fingerprint/) | الباب العاشر — بصمة أعداد الآيات | لا ترميز | 114 سورة + 54 پاراشاه | **p = 0.652 (غير دال)** | ✅ |
+| [14](14_random_encoding_test/) | اختبار إجهاد الترميز العشوائي | 33 عشوائي | 114 سورة × 33 ترميز | **0/33 تجاوز Special-6** | ✅ |
+| [15](15_freq_order_encoding/) | النظام الثالث: ترتيب التكرار | Freq-Order | 114 سورة + 78K كلمة | **5 جذور محافظة (p=0.0015)** | ✅ |
+| [16](16_rasm_readings/) | القراءات العشر + الرسم العثماني vs الإملائي | Abjad + K6 | 114 سورة × 14 رواية × رسمان | **p=0.011 (إملائي) / p≈0 (كلمات)** | ✅ |
+| [17+18](17_18_translation_fingerprint/) | هل تعبر البصمة الترجمة؟ 5 لغات، 9 نصوص | أبجدي + جماطريا | 9 نصوص | **z: +49.52 إلى -13.01** | ✅ مكتملة |
+| [19](19_cross_language_surah_level/) | الترجمات — مستوى السور (4 لغات × 2 ترميز) | جماتريا مكافئ | 114 سورة × 4 لغات | **صفر بصمة (p > 0.1 كلها)** | ✅ |
+| [20](20_triad_encoding_systems/) | ثالوث الأنظمة: مشرقي + مغربي + Special-6 | 3 أنظمة مستقلة | 114 سورة × 3 | **{9} ثابت في الثلاثة** | ✅ |
+
+---
+
+## كيف تُشغّل التجارب
 
 ```bash
-# Requirements
+# متطلبات
 pip install scipy
 
-# Set database path
-export D369_DB=/path/to/d369_research.db
+# تعيين مسار قاعدة البيانات
+export D369_DB=/path/to/d369.db
 export D369_DATA=/path/to/data/
 
-# Run an experiment
+# تشغيل تجربة
 python experiments/01_transformation_map_g14/experiment.py
 python experiments/04_special6_surah_level/experiment.py
-# ... etc.
+# ... الخ
 ```
 
 ---
 
-## Shared Module
+## الملف المشترك
 
-`shared/utils.py` contains:
-- `JUMMAL_5` — Classical Abjad dictionary (ة=5)
-- `JUMMAL_400` — Abjad with ة=400
-- `KHASS_6` — Special-6 encoding (33 shapes)
-- `digit_root(n)` — Digital root function
-- `word_value(text, system)` — Word value under any system
-
----
-
-## The Complete Picture
-
-```
-Level           | Abjad (ة=5)            | Special-6
-────────────────────────────────────────────────────
-Word (78,248)   | p≈0  ✅ (38.2%)       | p≈0  ✅ (34.2%)
-Surah (114)     | p=0.817  ✗ (29.8%)   | p=0.007  ✅ (44.7%)
-Transformation  | {3,6,9} stable  ✅    | {9} only stable
-```
-
-**Each system sees a different layer — Abjad sees the word, Special-6 sees the Surah.**
-
-### Control Group Results (Gates 6–7)
-
-```
-Text        Language  System    Division          p-value   Result
-──────────────────────────────────────────────────────────────────
-Quran       Arabic    Special-6 Surahs (divine)   0.007     ✅ peak
-Quran       Arabic    Special-6 Verses (natural)  0.010     ✅
-Bukhari     Arabic    Special-6 Natural hadith    0.139     ✗
-Torah       Hebrew    Gematria  Natural Parashot   0.549     ✗
-```
-
-### Gate Eight Result (Experiment 11)
-
-```
-Leave-one-out × 114 Surahs (3,000 trials each):
-
-🔴 Load-bearing:  0 Surahs
-◻  Neutral:      114 Surahs
-🟢 Booster:       0 Surahs
-```
-
-**The fingerprint is indivisible — it requires all 114 Surahs as a complete architecture.**
-
-### Experiment 16 Result (Readings + Script)
-
-```
-Ten canonical readings: identical — fingerprint is reading-invariant ✅
-Imla'i script:  K6=45% p=0.011 ✅ (Surah level)
-Uthmani script: word-level p≈0 ✅ (stronger: z=34 vs z=27)
-Invariant Core: 12 Surahs unaffected by either script
-Letter dots:    part of the code — merging them destroys the fingerprint
-```
-
-### Experiments 17+18 Result (Fingerprint Across Translation)
-
-```
-Text                              z-score   Fingerprint
-───────────────────────────────────────────────────────
-Quran — Urdu (Jalandhry)          +49.52    ✅
-Quran — Persian (Makarem)         +40.74    ✅
-Quran — Arabic (Abjad)            +27.35    ✅
-Quran — Hebrew (Gematria)         +22.75    ✅
-Quran — English (Ordinal)         -13.01    ❌
-Hebrew Torah                       -6.81    ❌
-Hafez — Persian poetry             -3.65    ❌
-Bukhari — Hebrew (500 hadiths)     -2.16    ❌
-Rumi — Persian poetry              -1.89    ❌
-```
-
-**The partition is absolute: all Quranic translations z > 0, all controls z < 0.**
+`shared/utils.py` — يحتوي على:
+- `JUMMAL_5` — قاموس الجُمَّل الكلاسيكي (ة=5)
+- `JUMMAL_400` — الجُمَّل مع ة=400
+- `KHASS_6` — قاموس الخاص-6 (33 شكلاً)
+- `digit_root(n)` — الجذر الرقمي
+- `word_value(text, system)` — قيمة نص بنظام محدد
 
 ---
 
-## Corresponding Papers
+## الصورة الكاملة
 
-- Experiments 01–02 → [Paper I](https://doi.org/10.5281/zenodo.19041960)
-- Experiment 03 → [Paper II](https://doi.org/10.5281/zenodo.19055332)
-- Experiments 04–06 → [Paper III](https://doi.org/10.5281/zenodo.19073919)
-- Experiments 07–10 → [Paper IV](https://doi.org/10.5281/zenodo.19078371)
-- Experiment 11 → [Paper V](https://doi.org/10.5281/zenodo.19079630)
-- Experiment 12 → Paper VI (Torah lacks G14 architecture)
-- Experiments 01–16 → [Comprehensive Paper](https://doi.org/10.5281/zenodo.19176486)
-- Experiments 17–18 → [Paper VII](https://doi.org/10.5281/zenodo.19181803)
+```
+المستوى        | الجُمَّل ة=5          | الخاص-6
+─────────────────────────────────────────────────
+الكلمة         | p≈0 ✅ (38.2%)      | p≈0 ✅ (34.2%)
+السورة (نسبة)  | p=0.75  ✗ (30.7%)  | p=0.007 ✅ (44.7%)
+التحوّلات      | {3,6,9} ثابتة ✅    | {9} فقط
+```
+
+**الجملة:** كل نظام يرى طبقة — الجُمَّل يرى الكلمة، الخاص-6 يرى السورة.
+
+### نتائج المجموعات الضابطة (الأبواب 6–7)
+
+```
+النص        اللغة  النظام     التقسيم              p-value   النتيجة
+─────────────────────────────────────────────────────────────────
+القرآن      عربي   الخاص-6    سور (إلهي)           0.007     ✅ الذروة
+القرآن      عربي   الخاص-6    آيات (طبيعي)         0.010     ✅
+البخاري     عربي   الخاص-6    أحاديث (طبيعي)      0.139     ✗
+التوراة     عبري   جيماتريا   پاراشيوت (طبيعي)    0.549     ✗
+```
+
+### نتيجة الباب الثامن (التجربة 11)
+
+```
+Leave-one-out × 114 سورة (3,000 تجربة لكل سورة):
+
+🔴 حاملة:      0 سورة
+◻  محايدة:   114 سورة
+🟢 مُعزِّزة:   0 سورة
+```
+
+**البصمة لا تتجزأ — تحتاج الـ114 سورة كاملةً كمعمارية واحدة.**
+
+### نتيجة التجربة 16 (القراءات والرسم)
+
+```
+القراءات العشر: متطابقة تماماً — البصمة reading-invariant
+الرسم الإملائي: K6=45% p=0.011 ✅ (مستوى السور)
+الرسم العثماني: word-level p≈0 ✅ (أقوى: z=34 vs z=27)
+النواة الثابتة: 12 سورة لم تتأثر بأي رسم
+النقاط جزء من الشيفرة — دمجها يُدمّر البصمة
+```
+
+### نتيجة التجربتين 17+18 (البصمة عبر الترجمة)
+
+```
+النص                           z-score   البصمة
+─────────────────────────────────────────────────
+قرآن أوردو (جالندهري)          +49.52    ✅
+قرآن فارسي (مكارم)             +40.74    ✅
+قرآن عربي (أبجدي)              +27.35    ✅
+قرآن عبري (جماطريا)            +22.75    ✅
+قرآن إنجليزي (ترتيبي)         -13.01    ❌
+التوراة العبرية                 -6.81    ❌
+حافظ — شعر فارسي               -3.65    ❌
+البخاري عبري (500 حديث)        -2.16    ❌
+رومي — شعر فارسي               -1.89    ❌
+```
+
+**الفاصل مطلق: كل ترجمات القرآن z > 0، وكل الضابطات z < 0.**
+
+---
+
+## الأوراق البحثية المقابلة
+
+- التجارب 01-02 → [الورقة الأولى](../papers/d369_digital_root_fingerprint.pdf)
+- التجربة 03 → [الورقة الثانية](https://doi.org/10.5281/zenodo.19055332)
+- التجارب 04-06 → [الورقة الثالثة](../papers/d369_paper3_special6.pdf)
+- التجارب 07-10 → [الورقة الرابعة](https://doi.org/10.5281/zenodo.19078371)
+- التجربة 11 → [الورقة الخامسة](https://doi.org/10.5281/zenodo.19079630)
+- التجربة 12 → الورقة السادسة (التوراة لا تحمل G14)
+- التجارب 01-16 → [الورقة الشاملة](https://doi.org/10.5281/zenodo.19176486)
+- التجربتان 17-18 → [الورقة السابعة](https://doi.org/10.5281/zenodo.19181803)
+- التجربة 19 → البصمة لا تُترجم (مستوى السور) — 26 مارس 2026
+- التجربة 20 → ثالوث الأنظمة (مشرقي + مغربي + Special-6) — 26 مارس 2026
