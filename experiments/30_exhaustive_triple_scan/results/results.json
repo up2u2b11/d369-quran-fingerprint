@@ -1,0 +1,1493 @@
+{
+  "algebraic_analysis": {
+    "total_subsets_size_3": 84,
+    "closed_under_add": [
+      [
+        3,
+        6,
+        9
+      ]
+    ],
+    "closed_under_mul": [
+      [
+        1,
+        3,
+        9
+      ],
+      [
+        1,
+        4,
+        7
+      ],
+      [
+        1,
+        6,
+        9
+      ],
+      [
+        1,
+        8,
+        9
+      ],
+      [
+        3,
+        6,
+        9
+      ]
+    ],
+    "closed_under_both": [
+      [
+        3,
+        6,
+        9
+      ]
+    ]
+  },
+  "ranking": [
+    {
+      "rank": 1,
+      "subset": [
+        3,
+        6,
+        9
+      ],
+      "quran_pct": 48.4431,
+      "null_mean_pct": 41.2009,
+      "null_ci95_low": 40.7975,
+      "null_ci95_high": 41.576,
+      "gap": 7.2422,
+      "inside_null_ci": false,
+      "add_closed": true,
+      "mul_closed": true,
+      "both_closed": true
+    },
+    {
+      "rank": 2,
+      "subset": [
+        3,
+        8,
+        9
+      ],
+      "quran_pct": 44.0484,
+      "null_mean_pct": 37.0316,
+      "null_ci95_low": 36.6681,
+      "null_ci95_high": 37.4233,
+      "gap": 7.0169,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 3,
+      "subset": [
+        2,
+        3,
+        9
+      ],
+      "quran_pct": 42.3531,
+      "null_mean_pct": 36.0992,
+      "null_ci95_low": 35.7435,
+      "null_ci95_high": 36.4659,
+      "gap": 6.2539,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 4,
+      "subset": [
+        3,
+        5,
+        9
+      ],
+      "quran_pct": 42.7968,
+      "null_mean_pct": 36.6691,
+      "null_ci95_low": 36.3155,
+      "null_ci95_high": 37.0272,
+      "gap": 6.1277,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 5,
+      "subset": [
+        6,
+        8,
+        9
+      ],
+      "quran_pct": 43.1514,
+      "null_mean_pct": 37.8943,
+      "null_ci95_low": 37.5445,
+      "null_ci95_high": 38.2869,
+      "gap": 5.257,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 6,
+      "subset": [
+        3,
+        4,
+        9
+      ],
+      "quran_pct": 41.6649,
+      "null_mean_pct": 37.0742,
+      "null_ci95_low": 36.6722,
+      "null_ci95_high": 37.4807,
+      "gap": 4.5907,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 7,
+      "subset": [
+        3,
+        7,
+        9
+      ],
+      "quran_pct": 41.2358,
+      "null_mean_pct": 36.7331,
+      "null_ci95_low": 36.3678,
+      "null_ci95_high": 37.114,
+      "gap": 4.5027,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 8,
+      "subset": [
+        2,
+        6,
+        9
+      ],
+      "quran_pct": 41.456,
+      "null_mean_pct": 36.962,
+      "null_ci95_low": 36.5867,
+      "null_ci95_high": 37.3168,
+      "gap": 4.494,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 9,
+      "subset": [
+        5,
+        6,
+        9
+      ],
+      "quran_pct": 41.8997,
+      "null_mean_pct": 37.5319,
+      "null_ci95_low": 37.1475,
+      "null_ci95_high": 37.9038,
+      "gap": 4.3678,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 10,
+      "subset": [
+        2,
+        8,
+        9
+      ],
+      "quran_pct": 37.0614,
+      "null_mean_pct": 32.7926,
+      "null_ci95_low": 32.4406,
+      "null_ci95_high": 33.1536,
+      "gap": 4.2687,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 11,
+      "subset": [
+        5,
+        8,
+        9
+      ],
+      "quran_pct": 37.5051,
+      "null_mean_pct": 33.3625,
+      "null_ci95_low": 33.005,
+      "null_ci95_high": 33.7666,
+      "gap": 4.1426,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 12,
+      "subset": [
+        1,
+        3,
+        9
+      ],
+      "quran_pct": 40.8796,
+      "null_mean_pct": 37.2784,
+      "null_ci95_low": 36.9199,
+      "null_ci95_high": 37.6808,
+      "gap": 3.6012,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": true,
+      "both_closed": false
+    },
+    {
+      "rank": 13,
+      "subset": [
+        3,
+        6,
+        8
+      ],
+      "quran_pct": 41.1208,
+      "null_mean_pct": 37.5274,
+      "null_ci95_low": 37.1462,
+      "null_ci95_high": 37.9259,
+      "gap": 3.5935,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 14,
+      "subset": [
+        2,
+        5,
+        9
+      ],
+      "quran_pct": 35.8097,
+      "null_mean_pct": 32.4302,
+      "null_ci95_low": 32.0883,
+      "null_ci95_high": 32.7792,
+      "gap": 3.3795,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 15,
+      "subset": [
+        4,
+        6,
+        9
+      ],
+      "quran_pct": 40.7678,
+      "null_mean_pct": 37.937,
+      "null_ci95_low": 37.5499,
+      "null_ci95_high": 38.2881,
+      "gap": 2.8308,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 16,
+      "subset": [
+        2,
+        3,
+        6
+      ],
+      "quran_pct": 39.4255,
+      "null_mean_pct": 36.5951,
+      "null_ci95_low": 36.2197,
+      "null_ci95_high": 36.9798,
+      "gap": 2.8304,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 17,
+      "subset": [
+        6,
+        7,
+        9
+      ],
+      "quran_pct": 40.3387,
+      "null_mean_pct": 37.5959,
+      "null_ci95_low": 37.2071,
+      "null_ci95_high": 37.968,
+      "gap": 2.7429,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 18,
+      "subset": [
+        3,
+        5,
+        6
+      ],
+      "quran_pct": 39.8692,
+      "null_mean_pct": 37.1649,
+      "null_ci95_low": 36.8183,
+      "null_ci95_high": 37.5284,
+      "gap": 2.7043,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 19,
+      "subset": [
+        4,
+        8,
+        9
+      ],
+      "quran_pct": 36.3732,
+      "null_mean_pct": 33.7676,
+      "null_ci95_low": 33.3793,
+      "null_ci95_high": 34.1304,
+      "gap": 2.6056,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 20,
+      "subset": [
+        2,
+        3,
+        8
+      ],
+      "quran_pct": 35.0308,
+      "null_mean_pct": 32.4257,
+      "null_ci95_low": 32.0628,
+      "null_ci95_high": 32.7923,
+      "gap": 2.6052,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 21,
+      "subset": [
+        7,
+        8,
+        9
+      ],
+      "quran_pct": 35.9441,
+      "null_mean_pct": 33.4265,
+      "null_ci95_low": 33.0678,
+      "null_ci95_high": 33.8127,
+      "gap": 2.5176,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 22,
+      "subset": [
+        3,
+        5,
+        8
+      ],
+      "quran_pct": 35.4745,
+      "null_mean_pct": 32.9955,
+      "null_ci95_low": 32.6427,
+      "null_ci95_high": 33.3503,
+      "gap": 2.479,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 23,
+      "subset": [
+        2,
+        4,
+        9
+      ],
+      "quran_pct": 34.6779,
+      "null_mean_pct": 32.8353,
+      "null_ci95_low": 32.4521,
+      "null_ci95_high": 33.1712,
+      "gap": 1.8425,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 24,
+      "subset": [
+        1,
+        6,
+        9
+      ],
+      "quran_pct": 39.9825,
+      "null_mean_pct": 38.1412,
+      "null_ci95_low": 37.7698,
+      "null_ci95_high": 38.4898,
+      "gap": 1.8413,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": true,
+      "both_closed": false
+    },
+    {
+      "rank": 25,
+      "subset": [
+        2,
+        7,
+        9
+      ],
+      "quran_pct": 34.2487,
+      "null_mean_pct": 32.4942,
+      "null_ci95_low": 32.1543,
+      "null_ci95_high": 32.8598,
+      "gap": 1.7546,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 26,
+      "subset": [
+        4,
+        5,
+        9
+      ],
+      "quran_pct": 35.1215,
+      "null_mean_pct": 33.4052,
+      "null_ci95_low": 33.0267,
+      "null_ci95_high": 33.752,
+      "gap": 1.7164,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 27,
+      "subset": [
+        2,
+        3,
+        5
+      ],
+      "quran_pct": 33.7792,
+      "null_mean_pct": 32.0632,
+      "null_ci95_low": 31.6877,
+      "null_ci95_high": 32.435,
+      "gap": 1.7159,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 28,
+      "subset": [
+        5,
+        7,
+        9
+      ],
+      "quran_pct": 34.6924,
+      "null_mean_pct": 33.064,
+      "null_ci95_low": 32.723,
+      "null_ci95_high": 33.4356,
+      "gap": 1.6284,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 29,
+      "subset": [
+        1,
+        8,
+        9
+      ],
+      "quran_pct": 35.5879,
+      "null_mean_pct": 33.9718,
+      "null_ci95_low": 33.6123,
+      "null_ci95_high": 34.3438,
+      "gap": 1.616,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": true,
+      "both_closed": false
+    },
+    {
+      "rank": 30,
+      "subset": [
+        3,
+        4,
+        6
+      ],
+      "quran_pct": 38.7373,
+      "null_mean_pct": 37.57,
+      "null_ci95_low": 37.2044,
+      "null_ci95_high": 37.9467,
+      "gap": 1.1673,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 31,
+      "subset": [
+        3,
+        6,
+        7
+      ],
+      "quran_pct": 38.3082,
+      "null_mean_pct": 37.2289,
+      "null_ci95_low": 36.8528,
+      "null_ci95_high": 37.6131,
+      "gap": 1.0793,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 32,
+      "subset": [
+        3,
+        4,
+        8
+      ],
+      "quran_pct": 34.3427,
+      "null_mean_pct": 33.4007,
+      "null_ci95_low": 33.0242,
+      "null_ci95_high": 33.7818,
+      "gap": 0.942,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 33,
+      "subset": [
+        3,
+        7,
+        8
+      ],
+      "quran_pct": 33.9136,
+      "null_mean_pct": 33.0595,
+      "null_ci95_low": 32.7022,
+      "null_ci95_high": 33.4133,
+      "gap": 0.8541,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 34,
+      "subset": [
+        1,
+        2,
+        9
+      ],
+      "quran_pct": 33.8925,
+      "null_mean_pct": 33.0395,
+      "null_ci95_low": 32.6757,
+      "null_ci95_high": 33.4069,
+      "gap": 0.853,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 35,
+      "subset": [
+        2,
+        6,
+        8
+      ],
+      "quran_pct": 34.1338,
+      "null_mean_pct": 33.2885,
+      "null_ci95_low": 32.9465,
+      "null_ci95_high": 33.6303,
+      "gap": 0.8453,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 36,
+      "subset": [
+        1,
+        5,
+        9
+      ],
+      "quran_pct": 34.3362,
+      "null_mean_pct": 33.6094,
+      "null_ci95_low": 33.2671,
+      "null_ci95_high": 34.0014,
+      "gap": 0.7268,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 37,
+      "subset": [
+        5,
+        6,
+        8
+      ],
+      "quran_pct": 34.5775,
+      "null_mean_pct": 33.8583,
+      "null_ci95_low": 33.5036,
+      "null_ci95_high": 34.2658,
+      "gap": 0.7191,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 38,
+      "subset": [
+        2,
+        3,
+        4
+      ],
+      "quran_pct": 32.6473,
+      "null_mean_pct": 32.4683,
+      "null_ci95_low": 32.0917,
+      "null_ci95_high": 32.8541,
+      "gap": 0.179,
+      "inside_null_ci": true,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 39,
+      "subset": [
+        1,
+        3,
+        6
+      ],
+      "quran_pct": 37.952,
+      "null_mean_pct": 37.7742,
+      "null_ci95_low": 37.4008,
+      "null_ci95_high": 38.1461,
+      "gap": 0.1777,
+      "inside_null_ci": true,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 40,
+      "subset": [
+        4,
+        7,
+        9
+      ],
+      "quran_pct": 33.5606,
+      "null_mean_pct": 33.4691,
+      "null_ci95_low": 33.0813,
+      "null_ci95_high": 33.8343,
+      "gap": 0.0914,
+      "inside_null_ci": true,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 41,
+      "subset": [
+        2,
+        3,
+        7
+      ],
+      "quran_pct": 32.2182,
+      "null_mean_pct": 32.1272,
+      "null_ci95_low": 31.7664,
+      "null_ci95_high": 32.492,
+      "gap": 0.091,
+      "inside_null_ci": true,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 42,
+      "subset": [
+        3,
+        4,
+        5
+      ],
+      "quran_pct": 33.091,
+      "null_mean_pct": 33.0382,
+      "null_ci95_low": 32.6918,
+      "null_ci95_high": 33.3897,
+      "gap": 0.0528,
+      "inside_null_ci": true,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 43,
+      "subset": [
+        3,
+        5,
+        7
+      ],
+      "quran_pct": 32.6619,
+      "null_mean_pct": 32.6971,
+      "null_ci95_low": 32.3727,
+      "null_ci95_high": 33.0295,
+      "gap": -0.0352,
+      "inside_null_ci": true,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 44,
+      "subset": [
+        2,
+        5,
+        6
+      ],
+      "quran_pct": 32.8821,
+      "null_mean_pct": 32.926,
+      "null_ci95_low": 32.5665,
+      "null_ci95_high": 33.297,
+      "gap": -0.0439,
+      "inside_null_ci": true,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 45,
+      "subset": [
+        1,
+        3,
+        8
+      ],
+      "quran_pct": 33.5573,
+      "null_mean_pct": 33.6049,
+      "null_ci95_low": 33.2458,
+      "null_ci95_high": 33.9676,
+      "gap": -0.0475,
+      "inside_null_ci": true,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 46,
+      "subset": [
+        2,
+        5,
+        8
+      ],
+      "quran_pct": 28.4875,
+      "null_mean_pct": 28.7566,
+      "null_ci95_low": 28.3906,
+      "null_ci95_high": 29.1262,
+      "gap": -0.2692,
+      "inside_null_ci": true,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 47,
+      "subset": [
+        1,
+        4,
+        9
+      ],
+      "quran_pct": 33.2043,
+      "null_mean_pct": 34.0145,
+      "null_ci95_low": 33.5952,
+      "null_ci95_high": 34.3818,
+      "gap": -0.8102,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 48,
+      "subset": [
+        1,
+        2,
+        3
+      ],
+      "quran_pct": 31.862,
+      "null_mean_pct": 32.6725,
+      "null_ci95_low": 32.3056,
+      "null_ci95_high": 33.033,
+      "gap": -0.8106,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 49,
+      "subset": [
+        4,
+        6,
+        8
+      ],
+      "quran_pct": 33.4456,
+      "null_mean_pct": 34.2634,
+      "null_ci95_low": 33.8886,
+      "null_ci95_high": 34.6506,
+      "gap": -0.8178,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 50,
+      "subset": [
+        1,
+        7,
+        9
+      ],
+      "quran_pct": 32.7752,
+      "null_mean_pct": 33.6733,
+      "null_ci95_low": 33.279,
+      "null_ci95_high": 34.0163,
+      "gap": -0.8981,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 51,
+      "subset": [
+        6,
+        7,
+        8
+      ],
+      "quran_pct": 33.0165,
+      "null_mean_pct": 33.9223,
+      "null_ci95_low": 33.5388,
+      "null_ci95_high": 34.2707,
+      "gap": -0.9058,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 52,
+      "subset": [
+        1,
+        3,
+        5
+      ],
+      "quran_pct": 32.3056,
+      "null_mean_pct": 33.2424,
+      "null_ci95_low": 32.8708,
+      "null_ci95_high": 33.5973,
+      "gap": -0.9367,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 53,
+      "subset": [
+        3,
+        4,
+        7
+      ],
+      "quran_pct": 31.53,
+      "null_mean_pct": 33.1022,
+      "null_ci95_low": 32.7287,
+      "null_ci95_high": 33.4315,
+      "gap": -1.5721,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 54,
+      "subset": [
+        2,
+        4,
+        6
+      ],
+      "quran_pct": 31.7502,
+      "null_mean_pct": 33.3311,
+      "null_ci95_low": 32.9686,
+      "null_ci95_high": 33.6919,
+      "gap": -1.5809,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 55,
+      "subset": [
+        2,
+        6,
+        7
+      ],
+      "quran_pct": 31.3211,
+      "null_mean_pct": 32.99,
+      "null_ci95_low": 32.6012,
+      "null_ci95_high": 33.3514,
+      "gap": -1.6688,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 56,
+      "subset": [
+        4,
+        5,
+        6
+      ],
+      "quran_pct": 32.1939,
+      "null_mean_pct": 33.901,
+      "null_ci95_low": 33.5319,
+      "null_ci95_high": 34.2371,
+      "gap": -1.7071,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 57,
+      "subset": [
+        5,
+        6,
+        7
+      ],
+      "quran_pct": 31.7648,
+      "null_mean_pct": 33.5598,
+      "null_ci95_low": 33.1774,
+      "null_ci95_high": 33.9145,
+      "gap": -1.795,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 58,
+      "subset": [
+        2,
+        4,
+        8
+      ],
+      "quran_pct": 27.3556,
+      "null_mean_pct": 29.1618,
+      "null_ci95_low": 28.8061,
+      "null_ci95_high": 29.509,
+      "gap": -1.8061,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 59,
+      "subset": [
+        1,
+        6,
+        8
+      ],
+      "quran_pct": 32.6603,
+      "null_mean_pct": 34.4676,
+      "null_ci95_low": 34.1225,
+      "null_ci95_high": 34.8013,
+      "gap": -1.8074,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 60,
+      "subset": [
+        2,
+        7,
+        8
+      ],
+      "quran_pct": 26.9265,
+      "null_mean_pct": 28.8206,
+      "null_ci95_low": 28.4966,
+      "null_ci95_high": 29.176,
+      "gap": -1.8941,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 61,
+      "subset": [
+        4,
+        5,
+        8
+      ],
+      "quran_pct": 27.7993,
+      "null_mean_pct": 29.7316,
+      "null_ci95_low": 29.3707,
+      "null_ci95_high": 30.121,
+      "gap": -1.9323,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 62,
+      "subset": [
+        5,
+        7,
+        8
+      ],
+      "quran_pct": 27.3702,
+      "null_mean_pct": 29.3905,
+      "null_ci95_low": 29.0221,
+      "null_ci95_high": 29.772,
+      "gap": -2.0203,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 63,
+      "subset": [
+        1,
+        3,
+        4
+      ],
+      "quran_pct": 31.1738,
+      "null_mean_pct": 33.6475,
+      "null_ci95_low": 33.2731,
+      "null_ci95_high": 34.0163,
+      "gap": -2.4737,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 64,
+      "subset": [
+        1,
+        3,
+        7
+      ],
+      "quran_pct": 30.7447,
+      "null_mean_pct": 33.3064,
+      "null_ci95_low": 32.9308,
+      "null_ci95_high": 33.6539,
+      "gap": -2.5617,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 65,
+      "subset": [
+        1,
+        2,
+        6
+      ],
+      "quran_pct": 30.9649,
+      "null_mean_pct": 33.5353,
+      "null_ci95_low": 33.1915,
+      "null_ci95_high": 33.8893,
+      "gap": -2.5704,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 66,
+      "subset": [
+        2,
+        4,
+        5
+      ],
+      "quran_pct": 26.1039,
+      "null_mean_pct": 28.7993,
+      "null_ci95_low": 28.4509,
+      "null_ci95_high": 29.1399,
+      "gap": -2.6954,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 67,
+      "subset": [
+        1,
+        5,
+        6
+      ],
+      "quran_pct": 31.4086,
+      "null_mean_pct": 34.1052,
+      "null_ci95_low": 33.7369,
+      "null_ci95_high": 34.4359,
+      "gap": -2.6966,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 68,
+      "subset": [
+        2,
+        5,
+        7
+      ],
+      "quran_pct": 25.6748,
+      "null_mean_pct": 28.4581,
+      "null_ci95_low": 28.133,
+      "null_ci95_high": 28.7959,
+      "gap": -2.7833,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 69,
+      "subset": [
+        1,
+        2,
+        8
+      ],
+      "quran_pct": 26.5703,
+      "null_mean_pct": 29.366,
+      "null_ci95_low": 29.0516,
+      "null_ci95_high": 29.7286,
+      "gap": -2.7957,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 70,
+      "subset": [
+        1,
+        5,
+        8
+      ],
+      "quran_pct": 27.0139,
+      "null_mean_pct": 29.9358,
+      "null_ci95_low": 29.5972,
+      "null_ci95_high": 30.2866,
+      "gap": -2.9219,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 71,
+      "subset": [
+        4,
+        6,
+        7
+      ],
+      "quran_pct": 30.633,
+      "null_mean_pct": 33.965,
+      "null_ci95_low": 33.5856,
+      "null_ci95_high": 34.3209,
+      "gap": -3.332,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 72,
+      "subset": [
+        4,
+        7,
+        8
+      ],
+      "quran_pct": 26.2383,
+      "null_mean_pct": 29.7956,
+      "null_ci95_low": 29.4418,
+      "null_ci95_high": 30.1625,
+      "gap": -3.5573,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 73,
+      "subset": [
+        1,
+        2,
+        5
+      ],
+      "quran_pct": 25.3186,
+      "null_mean_pct": 29.0035,
+      "null_ci95_low": 28.6585,
+      "null_ci95_high": 29.3843,
+      "gap": -3.6849,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 74,
+      "subset": [
+        1,
+        4,
+        6
+      ],
+      "quran_pct": 30.2767,
+      "null_mean_pct": 34.5103,
+      "null_ci95_low": 34.1559,
+      "null_ci95_high": 34.8463,
+      "gap": -4.2336,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 75,
+      "subset": [
+        2,
+        4,
+        7
+      ],
+      "quran_pct": 24.543,
+      "null_mean_pct": 28.8633,
+      "null_ci95_low": 28.5157,
+      "null_ci95_high": 29.1808,
+      "gap": -4.3203,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 76,
+      "subset": [
+        1,
+        6,
+        7
+      ],
+      "quran_pct": 29.8476,
+      "null_mean_pct": 34.1692,
+      "null_ci95_low": 33.824,
+      "null_ci95_high": 34.5097,
+      "gap": -4.3215,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 77,
+      "subset": [
+        4,
+        5,
+        7
+      ],
+      "quran_pct": 24.9866,
+      "null_mean_pct": 29.4331,
+      "null_ci95_low": 29.0776,
+      "null_ci95_high": 29.7509,
+      "gap": -4.4465,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 78,
+      "subset": [
+        1,
+        4,
+        8
+      ],
+      "quran_pct": 25.8821,
+      "null_mean_pct": 30.3409,
+      "null_ci95_low": 30.0088,
+      "null_ci95_high": 30.6881,
+      "gap": -4.4588,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 79,
+      "subset": [
+        1,
+        7,
+        8
+      ],
+      "quran_pct": 25.453,
+      "null_mean_pct": 29.9998,
+      "null_ci95_low": 29.6823,
+      "null_ci95_high": 30.3294,
+      "gap": -4.5468,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 80,
+      "subset": [
+        1,
+        2,
+        4
+      ],
+      "quran_pct": 24.1867,
+      "null_mean_pct": 29.4086,
+      "null_ci95_low": 29.0556,
+      "null_ci95_high": 29.7544,
+      "gap": -5.2219,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 81,
+      "subset": [
+        1,
+        2,
+        7
+      ],
+      "quran_pct": 23.7576,
+      "null_mean_pct": 29.0675,
+      "null_ci95_low": 28.6953,
+      "null_ci95_high": 29.4175,
+      "gap": -5.3098,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 82,
+      "subset": [
+        1,
+        4,
+        5
+      ],
+      "quran_pct": 24.6304,
+      "null_mean_pct": 29.9785,
+      "null_ci95_low": 29.6234,
+      "null_ci95_high": 30.3216,
+      "gap": -5.3481,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 83,
+      "subset": [
+        1,
+        5,
+        7
+      ],
+      "quran_pct": 24.2013,
+      "null_mean_pct": 29.6373,
+      "null_ci95_low": 29.268,
+      "null_ci95_high": 29.9812,
+      "gap": -5.436,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 84,
+      "subset": [
+        1,
+        4,
+        7
+      ],
+      "quran_pct": 23.0694,
+      "null_mean_pct": 30.0424,
+      "null_ci95_low": 29.6524,
+      "null_ci95_high": 30.3507,
+      "gap": -6.973,
+      "inside_null_ci": false,
+      "add_closed": false,
+      "mul_closed": true,
+      "both_closed": false
+    }
+  ],
+  "target_369": {
+    "rank": 1,
+    "subset": [
+      3,
+      6,
+      9
+    ],
+    "quran_pct": 48.4431,
+    "null_mean_pct": 41.2009,
+    "null_ci95_low": 40.7975,
+    "null_ci95_high": 41.576,
+    "gap": 7.2422,
+    "inside_null_ci": false,
+    "add_closed": true,
+    "mul_closed": true,
+    "both_closed": true
+  }
+}

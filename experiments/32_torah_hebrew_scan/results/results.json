@@ -1,0 +1,1498 @@
+{
+  "torah_observed": {
+    "n_total": 69196,
+    "n_composite": 56667,
+    "pct_369_composite": 39.1462,
+    "dr_distribution_composite_pct": {
+      "1": 9.1411,
+      "2": 10.1929,
+      "3": 14.2605,
+      "4": 9.4147,
+      "5": 9.1129,
+      "6": 12.8876,
+      "7": 9.2611,
+      "8": 13.7311,
+      "9": 11.9982
+    }
+  },
+  "hebrew_letter_residue_mod3": {
+    "r_equiv_0": 25.4574,
+    "r_equiv_1": 41.4936,
+    "r_equiv_2": 33.0491
+  },
+  "null_composite_dr_mean_pct": {
+    "1": 10.6729,
+    "2": 9.8034,
+    "3": 13.09,
+    "4": 10.4617,
+    "5": 9.8436,
+    "6": 13.1894,
+    "7": 9.7731,
+    "8": 10.0724,
+    "9": 13.0936
+  },
+  "ranking": [
+    {
+      "rank": 1,
+      "subset": [
+        2,
+        3,
+        8
+      ],
+      "torah_pct": 38.1845,
+      "null_mean_pct": 32.9657,
+      "null_ci95_low": 32.589,
+      "null_ci95_high": 33.3503,
+      "gap": 5.2188,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 2,
+      "subset": [
+        3,
+        6,
+        8
+      ],
+      "torah_pct": 40.8792,
+      "null_mean_pct": 36.3517,
+      "null_ci95_low": 35.9784,
+      "null_ci95_high": 36.7153,
+      "gap": 4.5274,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 3,
+      "subset": [
+        3,
+        7,
+        8
+      ],
+      "torah_pct": 37.2527,
+      "null_mean_pct": 32.9355,
+      "null_ci95_low": 32.6098,
+      "null_ci95_high": 33.2927,
+      "gap": 4.3172,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 4,
+      "subset": [
+        3,
+        5,
+        8
+      ],
+      "torah_pct": 37.1045,
+      "null_mean_pct": 33.006,
+      "null_ci95_low": 32.6274,
+      "null_ci95_high": 33.3735,
+      "gap": 4.0985,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 5,
+      "subset": [
+        3,
+        4,
+        8
+      ],
+      "torah_pct": 37.4063,
+      "null_mean_pct": 33.6241,
+      "null_ci95_low": 33.2311,
+      "null_ci95_high": 33.9651,
+      "gap": 3.7822,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 6,
+      "subset": [
+        2,
+        6,
+        8
+      ],
+      "torah_pct": 36.8115,
+      "null_mean_pct": 33.0651,
+      "null_ci95_low": 32.6915,
+      "null_ci95_high": 33.3876,
+      "gap": 3.7464,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 7,
+      "subset": [
+        3,
+        8,
+        9
+      ],
+      "torah_pct": 39.9898,
+      "null_mean_pct": 36.2559,
+      "null_ci95_low": 35.8696,
+      "null_ci95_high": 36.6669,
+      "gap": 3.7338,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 8,
+      "subset": [
+        2,
+        7,
+        8
+      ],
+      "torah_pct": 33.1851,
+      "null_mean_pct": 29.6489,
+      "null_ci95_low": 29.292,
+      "null_ci95_high": 30.0044,
+      "gap": 3.5362,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 9,
+      "subset": [
+        2,
+        5,
+        8
+      ],
+      "torah_pct": 33.0369,
+      "null_mean_pct": 29.7194,
+      "null_ci95_low": 29.366,
+      "null_ci95_high": 30.0766,
+      "gap": 3.3175,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 10,
+      "subset": [
+        1,
+        3,
+        8
+      ],
+      "torah_pct": 37.1327,
+      "null_mean_pct": 33.8352,
+      "null_ci95_low": 33.4903,
+      "null_ci95_high": 34.2029,
+      "gap": 3.2975,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 11,
+      "subset": [
+        2,
+        4,
+        8
+      ],
+      "torah_pct": 33.3386,
+      "null_mean_pct": 30.3375,
+      "null_ci95_low": 29.9656,
+      "null_ci95_high": 30.673,
+      "gap": 3.0012,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 12,
+      "subset": [
+        2,
+        8,
+        9
+      ],
+      "torah_pct": 35.9221,
+      "null_mean_pct": 32.9693,
+      "null_ci95_low": 32.5942,
+      "null_ci95_high": 33.3494,
+      "gap": 2.9528,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 13,
+      "subset": [
+        6,
+        7,
+        8
+      ],
+      "torah_pct": 35.8798,
+      "null_mean_pct": 33.0349,
+      "null_ci95_low": 32.6642,
+      "null_ci95_high": 33.3905,
+      "gap": 2.8449,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 14,
+      "subset": [
+        5,
+        6,
+        8
+      ],
+      "torah_pct": 35.7316,
+      "null_mean_pct": 33.1054,
+      "null_ci95_low": 32.7497,
+      "null_ci95_high": 33.4347,
+      "gap": 2.6262,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 15,
+      "subset": [
+        1,
+        2,
+        8
+      ],
+      "torah_pct": 33.0651,
+      "null_mean_pct": 30.5486,
+      "null_ci95_low": 30.1759,
+      "null_ci95_high": 30.9263,
+      "gap": 2.5165,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 16,
+      "subset": [
+        5,
+        7,
+        8
+      ],
+      "torah_pct": 32.1051,
+      "null_mean_pct": 29.6891,
+      "null_ci95_low": 29.3184,
+      "null_ci95_high": 30.0718,
+      "gap": 2.416,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 17,
+      "subset": [
+        4,
+        6,
+        8
+      ],
+      "torah_pct": 36.0333,
+      "null_mean_pct": 33.7235,
+      "null_ci95_low": 33.379,
+      "null_ci95_high": 34.0595,
+      "gap": 2.3098,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 18,
+      "subset": [
+        6,
+        8,
+        9
+      ],
+      "torah_pct": 38.6168,
+      "null_mean_pct": 36.3553,
+      "null_ci95_low": 35.9384,
+      "null_ci95_high": 36.7472,
+      "gap": 2.2615,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 19,
+      "subset": [
+        4,
+        7,
+        8
+      ],
+      "torah_pct": 32.4069,
+      "null_mean_pct": 30.3072,
+      "null_ci95_low": 29.9338,
+      "null_ci95_high": 30.6897,
+      "gap": 2.0996,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 20,
+      "subset": [
+        7,
+        8,
+        9
+      ],
+      "torah_pct": 34.9904,
+      "null_mean_pct": 32.9391,
+      "null_ci95_low": 32.5732,
+      "null_ci95_high": 33.348,
+      "gap": 2.0513,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 21,
+      "subset": [
+        4,
+        5,
+        8
+      ],
+      "torah_pct": 32.2586,
+      "null_mean_pct": 30.3777,
+      "null_ci95_low": 29.9798,
+      "null_ci95_high": 30.7356,
+      "gap": 1.8809,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 22,
+      "subset": [
+        5,
+        8,
+        9
+      ],
+      "torah_pct": 34.8421,
+      "null_mean_pct": 33.0096,
+      "null_ci95_low": 32.6282,
+      "null_ci95_high": 33.3969,
+      "gap": 1.8326,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 23,
+      "subset": [
+        1,
+        6,
+        8
+      ],
+      "torah_pct": 35.7598,
+      "null_mean_pct": 33.9346,
+      "null_ci95_low": 33.5508,
+      "null_ci95_high": 34.2879,
+      "gap": 1.8252,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 24,
+      "subset": [
+        1,
+        7,
+        8
+      ],
+      "torah_pct": 32.1333,
+      "null_mean_pct": 30.5184,
+      "null_ci95_low": 30.1469,
+      "null_ci95_high": 30.8911,
+      "gap": 1.615,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 25,
+      "subset": [
+        4,
+        8,
+        9
+      ],
+      "torah_pct": 35.1439,
+      "null_mean_pct": 33.6277,
+      "null_ci95_low": 33.2324,
+      "null_ci95_high": 34.0251,
+      "gap": 1.5162,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 26,
+      "subset": [
+        1,
+        5,
+        8
+      ],
+      "torah_pct": 31.9851,
+      "null_mean_pct": 30.5889,
+      "null_ci95_low": 30.2569,
+      "null_ci95_high": 30.9186,
+      "gap": 1.3962,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 27,
+      "subset": [
+        2,
+        3,
+        6
+      ],
+      "torah_pct": 37.341,
+      "null_mean_pct": 36.0827,
+      "null_ci95_low": 35.7347,
+      "null_ci95_high": 36.4329,
+      "gap": 1.2582,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 28,
+      "subset": [
+        1,
+        4,
+        8
+      ],
+      "torah_pct": 32.2869,
+      "null_mean_pct": 31.207,
+      "null_ci95_low": 30.82,
+      "null_ci95_high": 31.5791,
+      "gap": 1.0799,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 29,
+      "subset": [
+        2,
+        3,
+        7
+      ],
+      "torah_pct": 33.7145,
+      "null_mean_pct": 32.6665,
+      "null_ci95_low": 32.303,
+      "null_ci95_high": 33.0356,
+      "gap": 1.048,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 30,
+      "subset": [
+        1,
+        8,
+        9
+      ],
+      "torah_pct": 34.8704,
+      "null_mean_pct": 33.8388,
+      "null_ci95_low": 33.462,
+      "null_ci95_high": 34.186,
+      "gap": 1.0316,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": true,
+      "both_closed": false
+    },
+    {
+      "rank": 31,
+      "subset": [
+        2,
+        3,
+        5
+      ],
+      "torah_pct": 33.5663,
+      "null_mean_pct": 32.737,
+      "null_ci95_low": 32.3919,
+      "null_ci95_high": 33.0932,
+      "gap": 0.8293,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 32,
+      "subset": [
+        2,
+        3,
+        4
+      ],
+      "torah_pct": 33.868,
+      "null_mean_pct": 33.3551,
+      "null_ci95_low": 32.9863,
+      "null_ci95_high": 33.6687,
+      "gap": 0.513,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 33,
+      "subset": [
+        2,
+        3,
+        9
+      ],
+      "torah_pct": 36.4516,
+      "null_mean_pct": 35.9869,
+      "null_ci95_low": 35.66,
+      "null_ci95_high": 36.3875,
+      "gap": 0.4646,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 34,
+      "subset": [
+        3,
+        6,
+        7
+      ],
+      "torah_pct": 36.4092,
+      "null_mean_pct": 36.0525,
+      "null_ci95_low": 35.6968,
+      "null_ci95_high": 36.4475,
+      "gap": 0.3567,
+      "torah_inside_ci": true,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 35,
+      "subset": [
+        3,
+        5,
+        6
+      ],
+      "torah_pct": 36.261,
+      "null_mean_pct": 36.123,
+      "null_ci95_low": 35.7523,
+      "null_ci95_high": 36.4837,
+      "gap": 0.138,
+      "torah_inside_ci": true,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 36,
+      "subset": [
+        1,
+        2,
+        3
+      ],
+      "torah_pct": 33.5945,
+      "null_mean_pct": 33.5662,
+      "null_ci95_low": 33.1113,
+      "null_ci95_high": 33.9742,
+      "gap": 0.0283,
+      "torah_inside_ci": true,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 37,
+      "subset": [
+        3,
+        5,
+        7
+      ],
+      "torah_pct": 32.6345,
+      "null_mean_pct": 32.7067,
+      "null_ci95_low": 32.3298,
+      "null_ci95_high": 33.0722,
+      "gap": -0.0722,
+      "torah_inside_ci": true,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 38,
+      "subset": [
+        3,
+        4,
+        6
+      ],
+      "torah_pct": 36.5627,
+      "null_mean_pct": 36.7411,
+      "null_ci95_low": 36.39,
+      "null_ci95_high": 37.1382,
+      "gap": -0.1784,
+      "torah_inside_ci": true,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 39,
+      "subset": [
+        3,
+        6,
+        9
+      ],
+      "torah_pct": 39.1462,
+      "null_mean_pct": 39.3729,
+      "null_ci95_low": 38.9773,
+      "null_ci95_high": 39.7749,
+      "gap": -0.2267,
+      "torah_inside_ci": true,
+      "add_closed": true,
+      "mul_closed": true,
+      "both_closed": true
+    },
+    {
+      "rank": 40,
+      "subset": [
+        3,
+        4,
+        7
+      ],
+      "torah_pct": 32.9363,
+      "null_mean_pct": 33.3248,
+      "null_ci95_low": 32.9584,
+      "null_ci95_high": 33.7374,
+      "gap": -0.3886,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 41,
+      "subset": [
+        2,
+        6,
+        7
+      ],
+      "torah_pct": 32.3416,
+      "null_mean_pct": 32.7659,
+      "null_ci95_low": 32.3795,
+      "null_ci95_high": 33.127,
+      "gap": -0.4243,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 42,
+      "subset": [
+        3,
+        7,
+        9
+      ],
+      "torah_pct": 35.5198,
+      "null_mean_pct": 35.9567,
+      "null_ci95_low": 35.5949,
+      "null_ci95_high": 36.3315,
+      "gap": -0.4369,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 43,
+      "subset": [
+        3,
+        4,
+        5
+      ],
+      "torah_pct": 32.788,
+      "null_mean_pct": 33.3953,
+      "null_ci95_low": 32.9987,
+      "null_ci95_high": 33.782,
+      "gap": -0.6073,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 44,
+      "subset": [
+        2,
+        5,
+        6
+      ],
+      "torah_pct": 32.1933,
+      "null_mean_pct": 32.8364,
+      "null_ci95_low": 32.451,
+      "null_ci95_high": 33.1999,
+      "gap": -0.643,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 45,
+      "subset": [
+        3,
+        5,
+        9
+      ],
+      "torah_pct": 35.3716,
+      "null_mean_pct": 36.0272,
+      "null_ci95_low": 35.6731,
+      "null_ci95_high": 36.4136,
+      "gap": -0.6556,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 46,
+      "subset": [
+        1,
+        3,
+        6
+      ],
+      "torah_pct": 36.2892,
+      "null_mean_pct": 36.9522,
+      "null_ci95_low": 36.5939,
+      "null_ci95_high": 37.3768,
+      "gap": -0.663,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 47,
+      "subset": [
+        2,
+        5,
+        7
+      ],
+      "torah_pct": 28.5669,
+      "null_mean_pct": 29.4201,
+      "null_ci95_low": 29.0311,
+      "null_ci95_high": 29.763,
+      "gap": -0.8532,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 48,
+      "subset": [
+        1,
+        3,
+        7
+      ],
+      "torah_pct": 32.6627,
+      "null_mean_pct": 33.536,
+      "null_ci95_low": 33.1358,
+      "null_ci95_high": 33.903,
+      "gap": -0.8732,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 49,
+      "subset": [
+        2,
+        4,
+        6
+      ],
+      "torah_pct": 32.4951,
+      "null_mean_pct": 33.4545,
+      "null_ci95_low": 33.0915,
+      "null_ci95_high": 33.7979,
+      "gap": -0.9594,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 50,
+      "subset": [
+        3,
+        4,
+        9
+      ],
+      "torah_pct": 35.6733,
+      "null_mean_pct": 36.6453,
+      "null_ci95_low": 36.2944,
+      "null_ci95_high": 37.0015,
+      "gap": -0.972,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 51,
+      "subset": [
+        2,
+        6,
+        9
+      ],
+      "torah_pct": 35.0786,
+      "null_mean_pct": 36.0863,
+      "null_ci95_low": 35.6943,
+      "null_ci95_high": 36.5167,
+      "gap": -1.0077,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 52,
+      "subset": [
+        1,
+        3,
+        5
+      ],
+      "torah_pct": 32.5145,
+      "null_mean_pct": 33.6065,
+      "null_ci95_low": 33.2293,
+      "null_ci95_high": 33.9945,
+      "gap": -1.092,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 53,
+      "subset": [
+        2,
+        4,
+        7
+      ],
+      "torah_pct": 28.8687,
+      "null_mean_pct": 30.0382,
+      "null_ci95_low": 29.7013,
+      "null_ci95_high": 30.3761,
+      "gap": -1.1696,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 54,
+      "subset": [
+        2,
+        7,
+        9
+      ],
+      "torah_pct": 31.4522,
+      "null_mean_pct": 32.6701,
+      "null_ci95_low": 32.3264,
+      "null_ci95_high": 33.0094,
+      "gap": -1.2179,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 55,
+      "subset": [
+        2,
+        4,
+        5
+      ],
+      "torah_pct": 28.7204,
+      "null_mean_pct": 30.1087,
+      "null_ci95_low": 29.7697,
+      "null_ci95_high": 30.4777,
+      "gap": -1.3883,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 56,
+      "subset": [
+        1,
+        3,
+        4
+      ],
+      "torah_pct": 32.8163,
+      "null_mean_pct": 34.2246,
+      "null_ci95_low": 33.8685,
+      "null_ci95_high": 34.5965,
+      "gap": -1.4083,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 57,
+      "subset": [
+        2,
+        5,
+        9
+      ],
+      "torah_pct": 31.3039,
+      "null_mean_pct": 32.7406,
+      "null_ci95_low": 32.3284,
+      "null_ci95_high": 33.126,
+      "gap": -1.4366,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 58,
+      "subset": [
+        1,
+        2,
+        6
+      ],
+      "torah_pct": 32.2216,
+      "null_mean_pct": 33.6656,
+      "null_ci95_low": 33.243,
+      "null_ci95_high": 34.0583,
+      "gap": -1.444,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 59,
+      "subset": [
+        1,
+        3,
+        9
+      ],
+      "torah_pct": 35.3998,
+      "null_mean_pct": 36.8564,
+      "null_ci95_low": 36.5008,
+      "null_ci95_high": 37.2364,
+      "gap": -1.4566,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": true,
+      "both_closed": false
+    },
+    {
+      "rank": 60,
+      "subset": [
+        5,
+        6,
+        7
+      ],
+      "torah_pct": 31.2616,
+      "null_mean_pct": 32.8061,
+      "null_ci95_low": 32.4144,
+      "null_ci95_high": 33.1513,
+      "gap": -1.5445,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 61,
+      "subset": [
+        1,
+        2,
+        7
+      ],
+      "torah_pct": 28.5951,
+      "null_mean_pct": 30.2493,
+      "null_ci95_low": 29.8884,
+      "null_ci95_high": 30.6446,
+      "gap": -1.6542,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 62,
+      "subset": [
+        2,
+        4,
+        9
+      ],
+      "torah_pct": 31.6057,
+      "null_mean_pct": 33.3587,
+      "null_ci95_low": 33.0109,
+      "null_ci95_high": 33.7319,
+      "gap": -1.753,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 63,
+      "subset": [
+        4,
+        6,
+        7
+      ],
+      "torah_pct": 31.5633,
+      "null_mean_pct": 33.4242,
+      "null_ci95_low": 33.0338,
+      "null_ci95_high": 33.8326,
+      "gap": -1.8609,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 64,
+      "subset": [
+        1,
+        2,
+        5
+      ],
+      "torah_pct": 28.4469,
+      "null_mean_pct": 30.3198,
+      "null_ci95_low": 29.9541,
+      "null_ci95_high": 30.6965,
+      "gap": -1.873,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 65,
+      "subset": [
+        6,
+        7,
+        9
+      ],
+      "torah_pct": 34.1469,
+      "null_mean_pct": 36.0561,
+      "null_ci95_low": 35.6664,
+      "null_ci95_high": 36.4191,
+      "gap": -1.9092,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 66,
+      "subset": [
+        4,
+        5,
+        6
+      ],
+      "torah_pct": 31.4151,
+      "null_mean_pct": 33.4947,
+      "null_ci95_low": 33.0898,
+      "null_ci95_high": 33.8239,
+      "gap": -2.0796,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 67,
+      "subset": [
+        5,
+        6,
+        9
+      ],
+      "torah_pct": 33.9986,
+      "null_mean_pct": 36.1266,
+      "null_ci95_low": 35.7653,
+      "null_ci95_high": 36.4823,
+      "gap": -2.1279,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 68,
+      "subset": [
+        1,
+        2,
+        4
+      ],
+      "torah_pct": 28.7487,
+      "null_mean_pct": 30.9379,
+      "null_ci95_low": 30.5829,
+      "null_ci95_high": 31.2971,
+      "gap": -2.1893,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 69,
+      "subset": [
+        1,
+        2,
+        9
+      ],
+      "torah_pct": 31.3322,
+      "null_mean_pct": 33.5698,
+      "null_ci95_low": 33.207,
+      "null_ci95_high": 33.9287,
+      "gap": -2.2376,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 70,
+      "subset": [
+        4,
+        5,
+        7
+      ],
+      "torah_pct": 27.7887,
+      "null_mean_pct": 30.0785,
+      "null_ci95_low": 29.7172,
+      "null_ci95_high": 30.4786,
+      "gap": -2.2898,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 71,
+      "subset": [
+        5,
+        7,
+        9
+      ],
+      "torah_pct": 30.3722,
+      "null_mean_pct": 32.7103,
+      "null_ci95_low": 32.3394,
+      "null_ci95_high": 33.0823,
+      "gap": -2.3381,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 72,
+      "subset": [
+        1,
+        6,
+        7
+      ],
+      "torah_pct": 31.2898,
+      "null_mean_pct": 33.6354,
+      "null_ci95_low": 33.2539,
+      "null_ci95_high": 34.06,
+      "gap": -2.3455,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 73,
+      "subset": [
+        4,
+        6,
+        9
+      ],
+      "torah_pct": 34.3004,
+      "null_mean_pct": 36.7447,
+      "null_ci95_low": 36.4001,
+      "null_ci95_high": 37.1702,
+      "gap": -2.4443,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 74,
+      "subset": [
+        1,
+        5,
+        6
+      ],
+      "torah_pct": 31.1416,
+      "null_mean_pct": 33.7059,
+      "null_ci95_low": 33.3573,
+      "null_ci95_high": 34.0926,
+      "gap": -2.5643,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 75,
+      "subset": [
+        4,
+        7,
+        9
+      ],
+      "torah_pct": 30.6739,
+      "null_mean_pct": 33.3284,
+      "null_ci95_low": 32.9325,
+      "null_ci95_high": 33.6789,
+      "gap": -2.6545,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 76,
+      "subset": [
+        1,
+        5,
+        7
+      ],
+      "torah_pct": 27.5151,
+      "null_mean_pct": 30.2896,
+      "null_ci95_low": 29.903,
+      "null_ci95_high": 30.6626,
+      "gap": -2.7745,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 77,
+      "subset": [
+        4,
+        5,
+        9
+      ],
+      "torah_pct": 30.5257,
+      "null_mean_pct": 33.3989,
+      "null_ci95_low": 33.0285,
+      "null_ci95_high": 33.7892,
+      "gap": -2.8732,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 78,
+      "subset": [
+        1,
+        4,
+        6
+      ],
+      "torah_pct": 31.4433,
+      "null_mean_pct": 34.324,
+      "null_ci95_low": 33.9462,
+      "null_ci95_high": 34.7187,
+      "gap": -2.8806,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 79,
+      "subset": [
+        1,
+        6,
+        9
+      ],
+      "torah_pct": 34.0269,
+      "null_mean_pct": 36.9558,
+      "null_ci95_low": 36.5264,
+      "null_ci95_high": 37.349,
+      "gap": -2.9289,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": true,
+      "both_closed": false
+    },
+    {
+      "rank": 80,
+      "subset": [
+        1,
+        4,
+        7
+      ],
+      "torah_pct": 27.8169,
+      "null_mean_pct": 30.9077,
+      "null_ci95_low": 30.541,
+      "null_ci95_high": 31.3218,
+      "gap": -3.0908,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": true,
+      "both_closed": false
+    },
+    {
+      "rank": 81,
+      "subset": [
+        1,
+        7,
+        9
+      ],
+      "torah_pct": 30.4004,
+      "null_mean_pct": 33.5396,
+      "null_ci95_low": 33.1859,
+      "null_ci95_high": 33.8832,
+      "gap": -3.1391,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 82,
+      "subset": [
+        1,
+        4,
+        5
+      ],
+      "torah_pct": 27.6687,
+      "null_mean_pct": 30.9782,
+      "null_ci95_low": 30.5876,
+      "null_ci95_high": 31.349,
+      "gap": -3.3095,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 83,
+      "subset": [
+        1,
+        5,
+        9
+      ],
+      "torah_pct": 30.2522,
+      "null_mean_pct": 33.6101,
+      "null_ci95_low": 33.2569,
+      "null_ci95_high": 34.0024,
+      "gap": -3.3579,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    },
+    {
+      "rank": 84,
+      "subset": [
+        1,
+        4,
+        9
+      ],
+      "torah_pct": 30.5539,
+      "null_mean_pct": 34.2282,
+      "null_ci95_low": 33.8506,
+      "null_ci95_high": 34.5698,
+      "gap": -3.6742,
+      "torah_inside_ci": false,
+      "add_closed": false,
+      "mul_closed": false,
+      "both_closed": false
+    }
+  ],
+  "target_369": {
+    "rank": 39,
+    "subset": [
+      3,
+      6,
+      9
+    ],
+    "torah_pct": 39.1462,
+    "null_mean_pct": 39.3729,
+    "null_ci95_low": 38.9773,
+    "null_ci95_high": 39.7749,
+    "gap": -0.2267,
+    "torah_inside_ci": true,
+    "add_closed": true,
+    "mul_closed": true,
+    "both_closed": true
+  },
+  "top_subset": {
+    "rank": 1,
+    "subset": [
+      2,
+      3,
+      8
+    ],
+    "torah_pct": 38.1845,
+    "null_mean_pct": 32.9657,
+    "null_ci95_low": 32.589,
+    "null_ci95_high": 33.3503,
+    "gap": 5.2188,
+    "torah_inside_ci": false,
+    "add_closed": false,
+    "mul_closed": false,
+    "both_closed": false
+  }
+}
